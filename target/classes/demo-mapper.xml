@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.hticto.demo.sb.service.dao.DemoDao">
+<mapper namespace="com.hticto.demo.module.service.dao.DemoDao">
 
     <select id="selectById" resultType="java.lang.String">
         select message from demo where id = #{demoId}
