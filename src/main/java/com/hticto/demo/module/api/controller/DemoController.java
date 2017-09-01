@@ -11,12 +11,12 @@ import com.hticto.demo.module.web.vo.DemoData;
 
 
 @RestController
-@RequestMapping("/demo")
+@RequestMapping("/rest")
 public class DemoController extends BaseController {
 	
     private final static Logger logger = LoggerFactory.getLogger(DemoController.class); 
 
-	@RequestMapping("/getData")
+	@RequestMapping("/test")
 	public Response home() {
 		DemoData demo = new DemoData();
 		demo.setId(10);

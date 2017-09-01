@@ -15,7 +15,7 @@ import com.hticto.demo.module.service.iface.DemoService;
 import com.hticto.demo.module.web.base.controller.BaseController;
 
 @Controller
-@RequestMapping("/demo")
+@RequestMapping("/ftl")
 public class FreemarkerController extends BaseController {
 	
 	@Autowired

@@ -27,7 +27,7 @@ public class ResponseInterceptor implements HandlerInterceptor {
 	@Override
 	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
 			ModelAndView modelAndView) throws Exception {
-		logger.info("this is" + getClass().getName() + ", " + modelAndView);
+		logger.info("this is [" + getClass().getName() + "], " + modelAndView);
 	}
 
 	@Override
