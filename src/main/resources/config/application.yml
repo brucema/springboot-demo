@@ -13,7 +13,7 @@ spring:
         expose-spring-macro-helpers: true
         suffix: .ftl
         template-encoding: UTF-8
-        template-loader-path: classpath:/ftl/,classpath:/templates
+        template-loader-path: classpath:/templates/ftl/,classpath:/templates
         settings:
             locale: zh_CN
             date_format: yyyy-MM-dd
