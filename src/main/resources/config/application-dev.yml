@@ -1,4 +1,4 @@
-##datasource dev
+##datasource product
 spring:
   datasource:
     username: demo
@@ -8,14 +8,15 @@ spring:
     type: org.apache.tomcat.jdbc.pool.DataSource
     test-on-borrow: true
     validation-query: SELECT 1
- 
+
 server:
   port: 8888
   context-path: /
+  connection-timeout: 5000
   tomcat:
     max-threads: 300
     uri-encoding: UTF-8
     basedir: /data/servertmp
-     
+
 test:
   msg: this is dev

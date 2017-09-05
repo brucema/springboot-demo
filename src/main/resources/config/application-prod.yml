@@ -12,10 +12,11 @@ spring:
 server:
   port: 8888
   context-path: /
+  connection-timeout: 5000
   tomcat:
     max-threads: 300
     uri-encoding: UTF-8
     basedir: /data/servertmp
 
 test:
-  msg: this is product
+  msg: this is dev

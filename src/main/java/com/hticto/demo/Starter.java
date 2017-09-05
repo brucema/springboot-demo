@@ -1,4 +1,4 @@
-package com.hticto.demo.module;
+package com.hticto.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
