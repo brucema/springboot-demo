@@ -1,4 +1,4 @@
-package com.hticto.demo.module.web.base.config;
+package com.hticto.demo.common.web.config;
 
 
 import org.springframework.context.annotation.Configuration;

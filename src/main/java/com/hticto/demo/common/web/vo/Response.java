@@ -1,4 +1,4 @@
-package com.hticto.demo.module.web.base.vo;
+package com.hticto.demo.common.web.vo;
 
 import org.springframework.http.HttpStatus;
 

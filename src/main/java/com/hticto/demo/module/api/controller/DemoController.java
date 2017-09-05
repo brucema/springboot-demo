@@ -6,8 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hticto.demo.module.web.base.controller.BaseController;
-import com.hticto.demo.module.web.base.vo.Response;
+import com.hticto.demo.common.web.controller.BaseController;
+import com.hticto.demo.common.web.vo.Response;
 import com.hticto.demo.module.web.vo.DemoData;
 
 

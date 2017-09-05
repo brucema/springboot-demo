@@ -1,4 +1,4 @@
-package com.hticto.demo.module.web.base.exception;
+package com.hticto.demo.common.web.exception;
 
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;

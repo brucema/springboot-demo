@@ -1,4 +1,4 @@
-package com.hticto.demo.module.web.base.exception;
+package com.hticto.demo.common.web.exception;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
